@@ -7,7 +7,7 @@ Copy from [wiki](https://en.wikipedia.org/wiki/Software_design_pattern#Structura
 |:-- |:----------|:-----------------|:---------------|:------|
 |[Abstract factory](http://www.henryxi.com/java-abstract-factory-example)|Provide an interface for creating families of related or dependent objects without specifying their concrete classes.|Yes|Yes|N/A|
 |Builder|Separate the construction of a complex object from its representation, allowing the same construction process to create various representations.|Yes|No|N/A|
-|Factory method|Define an interface for creating a single object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses (dependency injection[19]).|Yes|Yes|N/A|
+|[Factory method](http://www.henryxi.com/java-factory-method-example)|Define an interface for creating a single object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses (dependency injection[19]).|Yes|Yes|N/A|
 |Lazy initialization|Tactic of delaying the creation of an object, the calculation of a value, or some other expensive process until the first time it is needed. This pattern appears in the GoF catalog as "virtual proxy", an implementation strategy for the Proxy pattern.|Yes|No|PoEAA|
 |Multiton|Ensure a class has only named instances, and provide a global point of access to them.|No|No|N/A|
 |Object pool|Avoid expensive acquisition and release of resources by recycling objects that are no longer in use. Can be considered a generalisation of connection pool and thread pool patterns.|No|No|N/A|
