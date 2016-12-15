@@ -5,7 +5,7 @@ Copy from [wiki](https://en.wikipedia.org/wiki/Software_design_pattern#Structura
 ## Creational patterns
 |Name|Description|In Design Patterns|In Code Complete|	Other|
 |:-- |:----------|:-----------------|:---------------|:------|
-|Abstract factory|Provide an interface for creating families of related or dependent objects without specifying their concrete classes.|Yes|Yes|N/A|
+|[Abstract factory](http://www.henryxi.com/java-abstract-factory-example)|Provide an interface for creating families of related or dependent objects without specifying their concrete classes.|Yes|Yes|N/A|
 |Builder|Separate the construction of a complex object from its representation, allowing the same construction process to create various representations.|Yes|No|N/A|
 |Factory method|Define an interface for creating a single object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses (dependency injection[19]).|Yes|Yes|N/A|
 |Lazy initialization|Tactic of delaying the creation of an object, the calculation of a value, or some other expensive process until the first time it is needed. This pattern appears in the GoF catalog as "virtual proxy", an implementation strategy for the Proxy pattern.|Yes|No|PoEAA|
