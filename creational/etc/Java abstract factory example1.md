@@ -95,7 +95,6 @@ public abstract class Client implements AbstractFactory {
     }
 }
 ```
-
 The aim of abstract factory is to create families of related products.. If you want create another families of product (Let's say
-ProductA3 and ProductB3). You just only need add `ConcreteFactory3` and change the value of config. The most business 
-logic code of won't be changed.
+ProductA3 and ProductB3). You just only need add `ConcreteFactory3` and change the value of configuration. The most business 
+logic code won't be changed.
