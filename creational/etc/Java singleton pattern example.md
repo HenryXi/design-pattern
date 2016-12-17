@@ -3,8 +3,6 @@ Singleton make sure only one instance in your program. There are two kinds of si
 initialization. The first one initializes class in the beginning. The second one initializes class when `getInstance`
 method is first invoked. The codes of them are like following.
 
-![]()
-
 **1. Initialization first (general)**
 ```java
 public class Singleton {
