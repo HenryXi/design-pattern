@@ -1,5 +1,5 @@
 # Java lazy initialization example
-Lazy initialization pattern is similar to (lazy initialization singleton)[http://www.henryxi.com/java-singleton-pattern-example]. The key
+Lazy initialization pattern is similar to [lazy initialization singleton](http://www.henryxi.com/java-singleton-pattern-example). The key
 point of lazy initialization is "no need no create". The sample of code is like following.
 ```java
 public class Product {
