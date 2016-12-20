@@ -9,10 +9,10 @@ Copy from [wiki](https://en.wikipedia.org/wiki/Software_design_pattern#Structura
 * [Factory method](http://www.henryxi.com/java-factory-method-example)
 * [Singleton](http://www.henryxi.com/java-singleton-pattern-example)
 * [Prototype](http://www.henryxi.com/java-prototype-pattern-example)
+* [Lazy initialization](http://www.henryxi.com/java-lazy-initialization-example)
 
 |Name|Description|In Design Patterns|In Code Complete|	Other|
 |:-- |:----------|:-----------------|:---------------|:------|
-|Lazy initialization|Tactic of delaying the creation of an object, the calculation of a value, or some other expensive process until the first time it is needed. This pattern appears in the GoF catalog as "virtual proxy", an implementation strategy for the Proxy pattern.|Yes|No|PoEAA|
 |Multiton|Ensure a class has only named instances, and provide a global point of access to them.|No|No|N/A|
 |Object pool|Avoid expensive acquisition and release of resources by recycling objects that are no longer in use. Can be considered a generalisation of connection pool and thread pool patterns.|No|No|N/A|
 |Resource|acquisition is initialization	Ensure that resources are properly released by tying them to the lifespan of suitable objects.|No|No|N/A|
