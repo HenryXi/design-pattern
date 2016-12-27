@@ -4,13 +4,6 @@ Copy from [wiki](https://en.wikipedia.org/wiki/Software_design_pattern#Structura
 
 ## Creational patterns
 
-* [Abstract factory](http://www.henryxi.com/java-abstract-factory-example)
-* [Builder](http://www.henryxi.com/java-builder-pattern-example)
-* [Factory method](http://www.henryxi.com/java-factory-method-example)
-* [Singleton](http://www.henryxi.com/java-singleton-pattern-example)
-* [Prototype](http://www.henryxi.com/java-prototype-pattern-example)
-* [Lazy initialization](http://www.henryxi.com/java-lazy-initialization-example)
-
 |Name|Description|In Design Patterns|In Code Complete|	Other|
 |:-- |:----------|:-----------------|:---------------|:------|
 |Multiton|Ensure a class has only named instances, and provide a global point of access to them.|No|No|N/A|
@@ -21,7 +14,6 @@ Copy from [wiki](https://en.wikipedia.org/wiki/Software_design_pattern#Structura
 |Name|Description|In Design Patterns|In Code Complete|Other|
 |:-- |:----------|:-----------------|:---------------|:----|
 |Adapter or Wrapper or Translator|Convert the interface of a class into another interface clients expect. An adapter lets classes work together that could not otherwise because of incompatible interfaces. The enterprise integration pattern equivalent is the translator.|Yes|Yes|N/A|
-|Bridge|Decouple an abstraction from its implementation allowing the two to vary independently.|Yes|Yes|N/A|
 |Composite|Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.|Yes|Yes|N/A|
 |Decorator|Attach additional responsibilities to an object dynamically keeping the same interface. Decorators provide a flexible alternative to subclassing for extending functionality.|Yes|Yes|N/A|
 |Extension object|Adding functionality to a hierarchy without changing the hierarchy.|No|No|Agile Software Development, Principles, Patterns, and Practices|
