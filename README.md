@@ -15,6 +15,7 @@ your code clean and efficient.
 ## Structural patterns
 
 * [Bridge](http://www.henryxi.com/java-bridge-design-pattern-example)
+* [Adapter](http://www.henryxi.com/java-adapter-pattern-example)
 
 ## Behavioral patterns
 
