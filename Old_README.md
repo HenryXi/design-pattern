@@ -15,7 +15,6 @@ Copy from [wiki](https://en.wikipedia.org/wiki/Software_design_pattern#Structura
 |:-- |:----------|:-----------------|:---------------|:----|
 |Composite|Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.|Yes|Yes|N/A|
 |Extension object|Adding functionality to a hierarchy without changing the hierarchy.|No|No|Agile Software Development, Principles, Patterns, and Practices|
-|Facade|Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.|Yes|Yes|N/A
 |Flyweight|Use sharing to support large numbers of similar objects efficiently.|Yes|No|N/A|
 |Front controller|The pattern relates to the design of Web applications. It provides a centralized entry point for handling requests.|No|Yes|N/A|
 |Marker|Empty interface to associate metadata with a class.|No|No|Effective Java|
