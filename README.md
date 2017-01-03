@@ -18,6 +18,7 @@ your code clean and efficient.
 * [Adapter](http://www.henryxi.com/java-adapter-pattern-example)
 * [Decorator](http://www.henryxi.com/java-decorator-pattern-example)
 * [Facade](http://www.henryxi.com/java-facade-pattern-example)
+* [Composite](http://www.henryxi.com/java-composite-pattern-example)
 
 ## Behavioral patterns
 
