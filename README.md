@@ -19,6 +19,7 @@ your code clean and efficient.
 * [Decorator](http://www.henryxi.com/java-decorator-pattern-example)
 * [Facade](http://www.henryxi.com/java-facade-pattern-example)
 * [Composite](http://www.henryxi.com/java-composite-pattern-example)
+* [Flyweight](http://www.henryxi.com/java-flyweight-pattern-example)
 
 ## Behavioral patterns
 

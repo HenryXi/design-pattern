@@ -14,7 +14,6 @@ Copy from [wiki](https://en.wikipedia.org/wiki/Software_design_pattern#Structura
 |Name|Description|In Design Patterns|In Code Complete|Other|
 |:-- |:----------|:-----------------|:---------------|:----|
 |Extension object|Adding functionality to a hierarchy without changing the hierarchy.|No|No|Agile Software Development, Principles, Patterns, and Practices|
-|Flyweight|Use sharing to support large numbers of similar objects efficiently.|Yes|No|N/A|
 |Front controller|The pattern relates to the design of Web applications. It provides a centralized entry point for handling requests.|No|Yes|N/A|
 |Marker|Empty interface to associate metadata with a class.|No|No|Effective Java|
 |Module|Group several related elements, such as classes, singletons, methods, globally used, into a single conceptual entity.|No|No|N/A|
