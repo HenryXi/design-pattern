@@ -8,14 +8,26 @@ public interface File {
 }
 
 public class TxtFile implements File {
+    private String content;
+
+    public TxtFile(String content) {
+        this.content = content;
+    }
+
     @Override
     public void print() {
-        System.out.println("txt file name");
+        System.out.println(content);
     }
 }
 
 public class Directory implements File {
+    private String name;
+
     private List<File> files = new ArrayList<>();
+
+    public Directory(String name) {
+        this.name = name;
+    }
 
     public void add(File file) {
         files.add(file);
@@ -27,6 +39,7 @@ public class Directory implements File {
 
     @Override
     public void print() {
+        System.out.println("directory " + this.name + ":");
         for (File file : files) {
             file.print();
         }
@@ -37,7 +50,7 @@ Both `TxtFile` and `Directory` implement the `print` method of the interface. Yo
 statements. Treat them as `File` and call `print` method, `TxtFile` will print the content of it and `Directory` will
 iterate all `TxtFile` and print the content of them one by one.
 
-![Composite pattern](https://uploads.disquscdn.com/images/464aa58589bfd87c53101376c33964021ed9a63def9023529317e77511fda36a.png)
+![Composite pattern](https://uploads.disquscdn.com/images/e9341ce2668b19da03018911372502d2a58dbc367dd1f6e308d15b1086073096.png)
 
 The client code is like following.
 ```java
