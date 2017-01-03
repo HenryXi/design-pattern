@@ -36,6 +36,9 @@ public class Directory implements File {
 Both `TxtFile` and `Directory` implement the `print` method of the interface. You can call print method without if
 statements. Treat them as `File` and call `print` method, `TxtFile` will print the content of it and `Directory` will
 iterate all `TxtFile` and print the content of them one by one.
+
+![Composite pattern](https://uploads.disquscdn.com/images/464aa58589bfd87c53101376c33964021ed9a63def9023529317e77511fda36a.png)
+
 The client code is like following.
 ```java
 public class Client {
