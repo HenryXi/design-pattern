@@ -20,6 +20,7 @@ your code clean and efficient.
 * [Facade](http://www.henryxi.com/java-facade-pattern-example)
 * [Composite](http://www.henryxi.com/java-composite-pattern-example)
 * [Flyweight](http://www.henryxi.com/java-flyweight-pattern-example)
+* [Proxy](http://www.henryxi.com/java-proxy-pattern-example)
 
 ## Behavioral patterns
 
