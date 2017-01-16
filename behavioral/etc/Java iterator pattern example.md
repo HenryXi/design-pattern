@@ -67,3 +67,5 @@ public class Client {
     }
 }
 ```
+The key of iterator pattern is "Provide **a way** to access the elements of an aggregate object sequentially 
+**without** exposing its underlying representation."
