@@ -17,7 +17,6 @@ Copy from [wiki](https://en.wikipedia.org/wiki/Software_design_pattern#Structura
 |Front controller|The pattern relates to the design of Web applications. It provides a centralized entry point for handling requests.|No|Yes|N/A|
 |Marker|Empty interface to associate metadata with a class.|No|No|Effective Java|
 |Module|Group several related elements, such as classes, singletons, methods, globally used, into a single conceptual entity.|No|No|N/A|
-|Proxy|Provide a surrogate or placeholder for another object to control access to it.|Yes|No|N/A|
 |Twin|Twin allows modeling of multiple inheritance in programming languages that do not support this feature.|No|No|N/A|
 
 
