@@ -24,4 +24,6 @@ your code clean and efficient.
 
 ## Behavioral patterns
 
+* [Iterator](http://www.henryxi.com/java-iterator-pattern-example)
+
 ## Concurrency patterns
