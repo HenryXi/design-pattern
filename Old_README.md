@@ -28,7 +28,6 @@ Copy from [wiki](https://en.wikipedia.org/wiki/Software_design_pattern#Structura
 |Chain of responsibility|Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it.|Yes|No|N/A|
 |Command|Encapsulate a request as an object, thereby allowing for the parameterization of clients with different requests, and the queuing or logging of requests. It also allows for the support of undoable operations.|Yes|No|N/A|
 |Interpreter|Given a language, define a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language.|Yes|No|N/A|
-|Iterator|Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.|Yes|Yes|N/A|
 |Mediator|Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it allows their interaction to vary independently.|Yes|No|N/A|
 |Memento|Without violating encapsulation, capture and externalize an object's internal state allowing the object to be restored to this state later.|Yes|No|N/A|
 |Null object|Avoid null references by providing a default object.|No|No|N/A|
