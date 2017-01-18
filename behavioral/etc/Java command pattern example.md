@@ -1,5 +1,5 @@
 # Java command pattern example
-There are four roles in command pattern client, invoker, receiver and command. `Command` invokes a method of `Receiver`
+Four roles in command pattern are client, invoker, receiver and command. `Command` invokes a method of `Receiver`
 to finish one command. `Invoker` knows which command will be executed. `Invoker` and `Receiver` do not know each other.
 After packaging the command you can repeat or undo it. 
 
