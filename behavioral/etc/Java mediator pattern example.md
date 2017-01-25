@@ -3,7 +3,7 @@ If you want to reduce the relationship between a set of objects mediator pattern
 objects don't know each others . All object to send the " event " to the mediator . Mediator knows every object and 
 invoke the method of them if needed. In this page I will show you how "button" and "text" works in mediator pattern.
 
-[mediator pattern](https://uploads.disquscdn.com/images/84c7c831ab62feeeb961050f27efa887b2d3f7971ada0934a19923af57d93038.png)
+![mediator pattern](https://uploads.disquscdn.com/images/84c7c831ab62feeeb961050f27efa887b2d3f7971ada0934a19923af57d93038.png)
 
 Mediator knows every object. It can send "event" to every object.
 ```java
