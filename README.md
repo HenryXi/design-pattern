@@ -27,6 +27,7 @@ your code clean and efficient.
 * [Iterator](http://www.henryxi.com/java-iterator-pattern-example)
 * [Command](http://www.henryxi.com/java-command-pattern-example)
 * [Mediator](http://www.henryxi.com/java-mediator-pattern-example)
+* [Visitor](http://www.henryxi.com/java-visitor-pattern-example)
 
 
 ## Concurrency patterns
