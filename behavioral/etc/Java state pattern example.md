@@ -3,6 +3,7 @@
 When you want buy goods from Amazon the logic flow is: `create order -> pay -> send goods -> receive goods -> evaluate`.
 The status of order is changed after every operation and the **action** of order is changed correspondingly. The
 example code is like following.
+
 ```java
 public abstract class OrderState {
     protected final String CREATE_OPERATION = "create";
