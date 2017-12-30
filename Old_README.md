@@ -35,7 +35,6 @@ Copy from [wiki](https://en.wikipedia.org/wiki/Software_design_pattern#Structura
 |State|Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.|Yes|No|N/A
 |Strategy|Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.|Yes|Yes|N/A|
 |Template method|Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.|Yes|Yes|N/A|
-|Visitor|Represent an operation to be performed on the elements of an object structure. Visitor lets a new operation be defined without changing the classes of the elements on which it operates.|Yes|No|N/A|
 
 ## Concurrency patterns
 |Name|Description|In Design Patterns|In POSA2|
