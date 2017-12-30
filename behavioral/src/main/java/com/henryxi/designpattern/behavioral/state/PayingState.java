@@ -7,7 +7,7 @@ public class PayingState extends OrderState {
 
     @Override
     public OrderState onCreating() {
-        return illegalOperate("create");
+        return illegalOperate(CREATE_OPERATION);
     }
 
     @Override
@@ -18,22 +18,22 @@ public class PayingState extends OrderState {
 
     @Override
     public OrderState onClosing() {
-        System.out.println("close order, refund money");
+        System.out.println("close order before paying. order id:" + orderId);
         return new CloseState(orderId);
     }
 
     @Override
     public OrderState onSending() {
-        return illegalOperate("send");
+        return illegalOperate(SEND_OPERATION);
     }
 
     @Override
     public OrderState onReceiving() {
-        return illegalOperate("receive");
+        return illegalOperate(RECEIVE_OPERATION);
     }
 
     @Override
     public OrderState onEvaluating() {
-        return illegalOperate("evaluate");
+        return illegalOperate(EVALUATE_OPERATION);
     }
 }

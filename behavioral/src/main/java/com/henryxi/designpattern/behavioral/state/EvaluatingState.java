@@ -17,7 +17,7 @@ public class EvaluatingState extends OrderState {
 
     @Override
     public OrderState onClosing() {
-        System.out.println("close order:" + orderId + ",return goods refund money.");
+        System.out.println("close order before evaluating, return goods refund money.");
         return new CloseState(orderId);
     }
 
@@ -33,7 +33,7 @@ public class EvaluatingState extends OrderState {
 
     @Override
     public OrderState onEvaluating() {
-        System.out.println("evaluate goods.");
+        System.out.println("evaluate goods. order id:" + orderId);
         return new CloseState(orderId);
     }
 }

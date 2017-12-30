@@ -10,19 +10,19 @@ public abstract class OrderState {
     protected String orderId;
 
     protected OrderState illegalOperate(String operation) {
-        System.out.println("can't " + operation + " on " + this.getClass().getSimpleName() + ",order id" + orderId);
+        System.out.println("ILLEGAL OPERATION!! can't " + operation + " on " + this.getClass().getSimpleName() + ",order id:" + orderId);
         return this;
     }
 
-    abstract OrderState onCreating();
+    public abstract OrderState onCreating();
 
-    abstract OrderState onPaying();
+    public abstract OrderState onPaying();
 
-    abstract OrderState onClosing();
+    public abstract OrderState onClosing();
 
-    abstract OrderState onSending();
+    public abstract OrderState onSending();
 
-    abstract OrderState onReceiving();
+    public abstract OrderState onReceiving();
 
-    abstract OrderState onEvaluating();
+    public abstract OrderState onEvaluating();
 }

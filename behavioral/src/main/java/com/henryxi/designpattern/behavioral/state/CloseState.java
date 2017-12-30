@@ -2,7 +2,7 @@ package com.henryxi.designpattern.behavioral.state;
 
 public class CloseState extends OrderState {
     public CloseState(String orderId) {
-        this.orderId = orderId;
+        System.out.println("order finish, order id:" + orderId);
     }
 
     @Override
@@ -17,7 +17,6 @@ public class CloseState extends OrderState {
 
     @Override
     public OrderState onClosing() {
-        System.out.println("order:" + orderId + " close.");
         return null;
     }
 

@@ -7,33 +7,33 @@ public class SendingState extends OrderState {
 
     @Override
     public OrderState onCreating() {
-        return illegalOperate("create");
+        return illegalOperate(CREATE_OPERATION);
     }
 
     @Override
     public OrderState onPaying() {
-        return illegalOperate("pay");
+        return illegalOperate(PAY_OPERATION);
     }
 
     @Override
     public OrderState onClosing() {
-        System.out.println("close order, waiting receive goods and return it then refund money.");
+        System.out.println("close order before sending, refund money. order id:" + orderId);
         return new CloseState(orderId);
     }
 
     @Override
     public OrderState onSending() {
-        System.out.println("send goods to customer.");
+        System.out.println("send goods to customer. order id:" + orderId);
         return new ReceivingState(orderId);
     }
 
     @Override
     public OrderState onReceiving() {
-        return illegalOperate("receive");
+        return illegalOperate(RECEIVE_OPERATION);
     }
 
     @Override
     public OrderState onEvaluating() {
-        return illegalOperate("evaluate");
+        return illegalOperate(EVALUATE_OPERATION);
     }
 }

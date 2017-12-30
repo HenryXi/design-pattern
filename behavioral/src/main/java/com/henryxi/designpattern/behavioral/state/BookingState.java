@@ -6,34 +6,34 @@ public class BookingState extends OrderState {
     }
 
     @Override
-    OrderState onCreating() {
+    public OrderState onCreating() {
         System.out.println("create order, id:" + orderId);
         return new PayingState(orderId);
     }
 
     @Override
-    OrderState onPaying() {
+    public OrderState onPaying() {
         return illegalOperate(PAY_OPERATION);
     }
 
     @Override
-    OrderState onClosing() {
-        System.out.println("onClosing order before paying. order Id:" + orderId);
+    public OrderState onClosing() {
+        System.out.println("close order before creating.");
         return new CloseState(orderId);
     }
 
     @Override
-    OrderState onSending() {
+    public OrderState onSending() {
         return illegalOperate(SEND_OPERATION);
     }
 
     @Override
-    OrderState onReceiving() {
+    public OrderState onReceiving() {
         return illegalOperate(RECEIVE_OPERATION);
     }
 
     @Override
-    OrderState onEvaluating() {
+    public OrderState onEvaluating() {
         return illegalOperate(EVALUATE_OPERATION);
     }
 }
