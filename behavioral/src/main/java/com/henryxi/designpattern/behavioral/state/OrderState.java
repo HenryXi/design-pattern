@@ -3,7 +3,6 @@ package com.henryxi.designpattern.behavioral.state;
 public abstract class OrderState {
     protected final String CREATE_OPERATION = "create";
     protected final String PAY_OPERATION = "pay";
-    protected final String CLOSE_OPERATION = "close";
     protected final String SEND_OPERATION = "send";
     protected final String RECEIVE_OPERATION = "receive";
     protected final String EVALUATE_OPERATION = "evaluate";
@@ -11,7 +10,7 @@ public abstract class OrderState {
 
     protected OrderState illegalOperate(String operation) {
         System.out.println("ILLEGAL OPERATION!! can't " + operation + " on " + this.getClass().getSimpleName() + ",order id:" + orderId);
-        return this;
+        throw new RuntimeException("ILLEGAL OPERATION");
     }
 
     public abstract OrderState onCreating();
