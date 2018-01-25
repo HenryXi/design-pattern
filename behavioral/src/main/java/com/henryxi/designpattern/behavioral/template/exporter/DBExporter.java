@@ -3,7 +3,7 @@ package com.henryxi.designpattern.behavioral.template.exporter;
 import java.util.Arrays;
 import java.util.List;
 
-public class ExporterFromDB extends AbstractExporter {
+public class DBExporter extends AbstractExporter {
 
     @Override
     protected List<String> getData() {
