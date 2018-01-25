@@ -1,7 +1,7 @@
 # Java template method pattern example
 `Template method` pattern is commonly used in this scenario which main logic stable but sub steps not. Let's say you want
 to implement `export` function. For different data source there are different way to export data. But the main steps is the
-same: "getData", "processData" and "export". Let's try to use `template method` in this example.
+same: "getData", "processData" and "export". Let's try to use `template method` pattern in this example.
 
 **package structure**
 
