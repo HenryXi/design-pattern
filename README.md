@@ -29,6 +29,7 @@ your code clean and efficient.
 * [Mediator](http://www.henryxi.com/java-mediator-pattern-example)
 * [Visitor](http://www.henryxi.com/java-visitor-pattern-example)
 * [State](http://www.henryxi.com/java-state-pattern-example)
+* [Template method](http://www.henryxi.com/java-template-method-pattern-example)
 
 
 ## Concurrency patterns

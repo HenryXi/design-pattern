@@ -33,7 +33,6 @@ Copy from [wiki](https://en.wikipedia.org/wiki/Software_design_pattern#Structura
 |Servant|Define common functionality for a group of classes.|No|No|N/A|
 |Specification|Recombinable business logic in a Boolean fashion.|No|No|N/A|
 |Strategy|Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.|Yes|Yes|N/A|
-|Template method|Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.|Yes|Yes|N/A|
 
 ## Concurrency patterns
 |Name|Description|In Design Patterns|In POSA2|
